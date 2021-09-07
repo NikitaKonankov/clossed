@@ -52,6 +52,13 @@ a:not([class]) {
 img {
   max-width: 100%;
   display: block;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 /* Указываем понятную периодичность в потоке данных у article*/
