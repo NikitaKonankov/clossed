@@ -1,4 +1,6 @@
-body,
+body {
+	filter: invert(100%)
+}
 html {
 	width: 100%;
 	background: rgb(0,255,250);
@@ -67,4 +69,6 @@ html {
 }
 .paragraph {
 	margin-bottom: 16px;
+	color: lightsalmon;
 }
+	
