@@ -1,0 +1,78 @@
+.main-wrapper{
+    display: flex;
+    flex-direction:column;
+    padding: 2rem 3rem 0rem;
+    margin: 0 auto;
+    height: 100vh;
+    }
+/* header */
+.header{
+    display: flex;
+    align-items:center;
+    height: 2rem;
+    margin-bottom: 2rem;
+    background-color: #A8A8FF;
+    }
+.header__page-title{
+    height: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    color: #8055FF;
+    font-size: 26px;
+    line-height: 2rem;
+    }
+
+/* filter-row */
+.filter-row{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border: 2px solid #A8A8FF ;
+    }
+.filter-group{
+    display: flex;
+    align-items: center;
+    }
+.filter-group__search{
+    background-color: #8055FF;
+    margin: 0.5rem;
+    width: 16rem;
+    height: 2rem;
+    }
+.filter-group__filter{
+    background-color: #8055FF;
+    margin: 0.5rem 0rem;
+    width: 2rem;
+    height: 2rem;
+    }
+.filter-row__loading{
+    display: flex;
+    align-items: center;
+    background-color: #8055FF;
+    margin: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    }
+/* table */
+.table{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid #8055FF ;
+    }
+.table__header{
+    flex: 0 0 3rem;
+    background-color: #8055FF;
+    } 
+.table__body{
+    flex: 1 1 auto; 
+    background-color:#A8A8FF;
+    }
+.table__footer{
+    flex: 0 0 3rem;
+    background-color: #8055FF;
+    }
