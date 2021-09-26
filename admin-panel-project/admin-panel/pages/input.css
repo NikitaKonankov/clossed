@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 48px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 400px;
+    height: 600px;
+
+    border: 1px dashed #8055FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.input__text {
+    margin-bottom: 8px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000;
+}
+
+.input {
+    box-sizing: border-box;
+    border: 1px solid #459DF5;
+    padding: 4px 4px 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 16px;
+    outline: none;
+    background-color: #fff;
+}
+
+.input::placeholder {
+    color: #BAD8F5;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.input_red:focus {
+    border-color: #F53152;
+
+    background-image: url('./icons/x-medium.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: calc(100% - 6px) 50%;
+}
+
+.input_password {
+    background-color: #BAD8F5;
+    border-color: #459DF5;
+    background-image: url('./icons/locked.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: calc(100% - 6px) 50%;
+}
